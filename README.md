@@ -67,6 +67,6 @@ Seluruh anggota tim berperan penting dalam menjalankan proyek KM-RevoU dan berko
 
 ## Terima Kasih
 
-Sekian dari project kami, kami masih belajar dan akan terus berusaha untuk menjadi lebih baik. Akhir kata, Selamat menggunakan website KilatCare! Kami berharap Anda memiliki pengalaman pengiriman yang mudah dan nyaman bersama kami.
+Sekian dari project kami, kami masih belajar dan akan terus berusaha untuk menjadi lebih baik. Akhir kata, Selamat menggunakan website Resort H! Kami berharap Anda memiliki pengalaman pengiriman yang mudah dan nyaman bersama kami.
 ## [Kunjungi Website Resort H](https://kampus-merdeka-software-engineering.github.io/FE-2-Bandung-16/)
 
