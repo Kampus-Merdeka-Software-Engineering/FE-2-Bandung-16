@@ -15,76 +15,58 @@ Layanan kami mencakup:
 
 Selamat datang di Resort H. Panduan ini akan membantu Anda menjelajahi fitur-fitur utama website kami.
 
-## Navigasi Navbar
-
-Navbar kami berada di bagian atas setiap halaman dan menyediakan akses cepat ke bagian utama website:
-
-- **Beranda**: Kembali ke halaman beranda utama.
-- **Pesan atau Review**: Untuk memberikan ulasan, pesan, atau pertanyaan, klik di sini.
-- **Lokasi Utama**: Temukan lokasi utama kami untuk pengiriman dan pengambilan.
-- **Cek Biaya Kirim**: Cek biaya pengiriman Anda dengan mudah.
-- **Drop Point**: Temukan drop point terdekat untuk pengiriman dan pengambilan barang.
-
 ## Halaman Beranda
 Halaman Beranda adalah tempat utama untuk memulai. Di sini, Anda dapat:
-- **Pesan atau Review**: Bagi pengalaman atau masukan anda.
-- **Info Kontak**: Temukan informasi kontak untuk masing-masing lokasi, termasuk nomor telepon dan alamat.
 
-## Halaman Lokasi Utama
-Halaman Lokasi Utama membantu Anda menemukan lokasi fisik KilatCare kami. Anda dapat:
-- **Melihat Peta**: Lihat peta yang menunjukkan lokasi utama kami.
+## Halaman
 
-## Halaman Cek Biaya Kirim
-Di halaman ini, Anda dapat:
-- **Isi Detail Pengiriman**: Isi detail pengiriman Anda, seperti berat dan dimensi barang, serta alamat pengiriman dan tujuan.
-- **Hitung Biaya Kirim**: Tekan tombol "Cek Ongkir" untuk mendapatkan perkiraan biaya pengiriman Anda.
+## Halaman
 
-## Halaman Drop Point
-Temukan drop point terdekat di halaman ini. Anda dapat:
-- **Lihat Lokasi**: Lihat daftar drop point beserta alamatnya.
-- **Cari Lokasi Terdekat**: Gunakan alat pencarian untuk menemukan drop point terdekat berdasarkan lokasi Anda.
+## Halaman
 
-Selamat menggunakan website KilatCare! Kami berharap Anda memiliki pengalaman pengiriman yang mudah dan nyaman bersama kami.
+Selamat menggunakan website Resort H! Kami berharap Anda memiliki pengalaman pengiriman yang mudah dan nyaman bersama kami.
 
 
-# Teknologi KilatCare
+# Teknologi Resort H
 
-KilatCare adalah proyek pengiriman barang yang dibangun dengan berbagai teknologi yang kuat. Di bawah ini adalah daftar teknologi yang digunakan dalam proyek ini bersama dengan penjelasan singkat mengenai kegunaannya.
+Resort H adalah proyek pengiriman barang yang dibangun dengan berbagai teknologi yang kuat. Di bawah ini adalah daftar teknologi yang digunakan dalam proyek ini bersama dengan penjelasan singkat mengenai kegunaannya.
 
-- **HTML (Hypertext Markup Language)**: HTML digunakan untuk membangun struktur dasar dari halaman web KilatCare, termasuk elemen-elemen seperti header, footer, dan konten utama.
+- **HTML (Hypertext Markup Language)**: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
 
-- **CSS (Cascading Style Sheets)**: CSS digunakan untuk mengatur tampilan dan gaya visual dari halaman web KilatCare, termasuk desain tata letak, warna, dan tipografi.
+- **CSS (Cascading Style Sheets)**: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
 
-- **JavaScript (JS)**: JavaScript digunakan untuk membuat halaman web menjadi interaktif. Ini termasuk validasi formulir, efek animasi, dan manipulasi data pada sisi klien.
+- **JavaScript (JS)**: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
 
-- **Node.js**: Node.js digunakan sebagai lingkungan runtime di sisi server untuk menjalankan server web KilatCare. Ini memungkinkan penanganan permintaan HTTP, routing, dan logika bisnis di belakang layar.
+- **Node.js**: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
 
-- **SQL (Structured Query Language)**: SQL digunakan untuk mengelola basis data KilatCare. Ini digunakan untuk menyimpan dan mengambil data pelanggan, pesanan, dan informasi lainnya yang diperlukan.
+- **SQL (Structured Query Language)**: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
 
-- **Postman**: Postman digunakan untuk menguji dan menguji ulang API yang digunakan dalam proyek KilatCare. Ini membantu memastikan keandalan API kami sebelum diterapkan dalam produksi.
+- **Postman**: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
 
-- **GitHub**: GitHub digunakan untuk mengelola kode sumber proyek KilatCare. Ini memungkinkan kolaborasi tim, pelacakan perubahan, dan manajemen versi kode.
+- **GitHub**: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
 
-- **Railway**: Railway digunakan sebagai platform hosting proyek KilatCare secara online. Ini memungkinkan kami untuk mempublikasikan aplikasi web secara global agar dapat diakses oleh pelanggan kami.
+- **Railway**: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
 
-Kombinasi teknologi ini memungkinkan KilatCare untuk menyediakan layanan informasi pengiriman barang yang efisien dan dapat diandalkan kepada pelanggan kami.
+Kombinasi teknologi ini memungkinkan Resort H untuk menyediakan layanan penyedia resort yang efisien dan dapat diandalkan kepada pelanggan kami.
 
 <br>
 
-# Anggota Tim KilatCare
+# Anggota Tim Resort H
 
-Berikut adalah anggota tim KilatCare yang berkontribusi dalam pengembangan proyek ini:
+Berikut adalah anggota tim Resort H yang berkontribusi dalam pengembangan proyek ini:
 
-1. **Ni Kadek Sinta Nastalia sebagai Project Leader & PIC Backend Development**
-2. **Ainniya Berlin Febriyanti sebagai PIC Frontend Development**
-3. **Regita Afriani sebagai PIC Frontend Development**
-4. **Astri Rahmawati sebagai PIC Quality Assurance**
+1. **I Gusti Ngurah Anom Hariyadi (Project Leader)**
+2. **Agata Sekar Viranti Mukti sebagai PIC Frontend Development**
+3. **Reiffannisa Dwimuhaqaida sebagai PIC Frontend Development**
+4. **Much Rizki Ramadhan sebagai PIC Back-end Development**
+5. **Muchammad Najid Labiba sebagai PIC Back-end Development**
+6. **Yayah Zakiah sebagai PIC Quality Assurance**
 
-Seluruh anggota tim berperan penting dalam menjalankan proyek KilatCare dan berkontribusi untuk keberhasilan proyek kami.
+Seluruh anggota tim berperan penting dalam menjalankan proyek KM-RevoU dan berkontribusi untuk keberhasilan proyek kami.
 
 
 ## Terima Kasih
 
 Sekian dari project kami, kami masih belajar dan akan terus berusaha untuk menjadi lebih baik. Akhir kata, Selamat menggunakan website KilatCare! Kami berharap Anda memiliki pengalaman pengiriman yang mudah dan nyaman bersama kami.
-## [Kunjungi Website KilatCare](https://kampus-merdeka-software-engineering.github.io/FE-Jayapura-20/)
+## [Kunjungi Website Resort H](https://kampus-merdeka-software-engineering.github.io/FE-2-Bandung-16/)
 
