@@ -1,6 +1,6 @@
 # Resort H - A South East Asian beachside paradise
 <p align="center">
-  <img src="/src/assets/images/LogoSementara.png" alt="logo" width="450px" height="300px">
+  <img src="/src/assets/images/BlueHorizonWhite.png" alt="logo" width="450px" height="300px">
 </p>
 Resort H adalah Website Resort penyedia fasilitas penginapan yang memiliki pemandangan, keamanan dan kepuasan pelanggan terbaik di Bali. 
 Layanan kami mencakup:
