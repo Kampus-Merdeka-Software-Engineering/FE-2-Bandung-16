@@ -1,8 +1,8 @@
-# Resort H - A South East Asian beachside paradise
+# Blue Horizon Resort - A South East Asian beachside paradise
 <p align="center">
-  <img src="/src/assets/images/LogoSementara.png" alt="logo" width="450px" height="300px">
+  <img src="/src/assets/images/BlueHorizonWhite.png" alt="logo">
 </p>
-Resort H adalah Website Resort penyedia fasilitas penginapan yang memiliki pemandangan, keamanan dan kepuasan pelanggan terbaik di Bali. 
+Blue Horizon Resort adalah Website Resort penyedia fasilitas penginapan yang memiliki pemandangan, keamanan dan kepuasan pelanggan terbaik di Bali. 
 Layanan kami mencakup:
 
 - **Lorem Ipsum**: Lorem ipsum dolor sit amet.
@@ -11,9 +11,9 @@ Layanan kami mencakup:
 
 <br><br>
 
-# Panduan Penggunaan Website Resort H
+# Panduan Penggunaan Website Blue Horizon Resort
 
-Selamat datang di Resort H. Panduan ini akan membantu Anda menjelajahi fitur-fitur utama website kami.
+Selamat datang di Blue Horizon Resort. Panduan ini akan membantu Anda menjelajahi fitur-fitur utama website kami.
 
 ## Halaman Beranda
 Halaman Beranda adalah tempat utama untuk memulai. Di sini, Anda dapat:
@@ -24,12 +24,12 @@ Halaman Beranda adalah tempat utama untuk memulai. Di sini, Anda dapat:
 
 ## Halaman
 
-Selamat menggunakan website Resort H! Kami berharap Anda memiliki pengalaman pengiriman yang mudah dan nyaman bersama kami.
+Selamat menggunakan website Blue Horizon Resort! Kami berharap Anda memiliki pengalaman pengiriman yang mudah dan nyaman bersama kami.
 
 
-# Teknologi Resort H
+# Teknologi Blue Horizon Resort
 
-Resort H adalah proyek pengiriman barang yang dibangun dengan berbagai teknologi yang kuat. Di bawah ini adalah daftar teknologi yang digunakan dalam proyek ini bersama dengan penjelasan singkat mengenai kegunaannya.
+Blue Horizon Resort adalah proyek pengiriman barang yang dibangun dengan berbagai teknologi yang kuat. Di bawah ini adalah daftar teknologi yang digunakan dalam proyek ini bersama dengan penjelasan singkat mengenai kegunaannya.
 
 - **HTML (Hypertext Markup Language)**: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
 
@@ -47,13 +47,13 @@ Resort H adalah proyek pengiriman barang yang dibangun dengan berbagai teknologi
 
 - **Railway**: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
 
-Kombinasi teknologi ini memungkinkan Resort H untuk menyediakan layanan penyedia resort yang efisien dan dapat diandalkan kepada pelanggan kami.
+Kombinasi teknologi ini memungkinkan Blue Horizon Resort untuk menyediakan layanan penyedia resort yang efisien dan dapat diandalkan kepada pelanggan kami.
 
 <br>
 
-# Anggota Tim Resort H
+# Anggota Tim Blue Horizon Resort
 
-Berikut adalah anggota tim Resort H yang berkontribusi dalam pengembangan proyek ini:
+Berikut adalah anggota tim Blue Horizon Resort yang berkontribusi dalam pengembangan proyek ini:
 
 1. **I Gusti Ngurah Anom Hariyadi (Project Leader)**
 2. **Agata Sekar Viranti Mukti sebagai PIC Frontend Development**
@@ -67,6 +67,6 @@ Seluruh anggota tim berperan penting dalam menjalankan proyek KM-RevoU dan berko
 
 ## Terima Kasih
 
-Sekian dari project kami, kami masih belajar dan akan terus berusaha untuk menjadi lebih baik. Akhir kata, Selamat menggunakan website Resort H! Kami berharap Anda memiliki pengalaman pengiriman yang mudah dan nyaman bersama kami.
-## [Kunjungi Website Resort H](https://kampus-merdeka-software-engineering.github.io/FE-2-Bandung-16/)
+Sekian dari project kami, kami masih belajar dan akan terus berusaha untuk menjadi lebih baik. Akhir kata, Selamat menggunakan website Blue Horizon Resort! Kami berharap Anda memiliki pengalaman pengiriman yang mudah dan nyaman bersama kami.
+## [Kunjungi Website Blue Horizon Resort](https://kampus-merdeka-software-engineering.github.io/FE-2-Bandung-16/)
 
