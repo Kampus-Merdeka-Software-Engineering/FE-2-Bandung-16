@@ -55,6 +55,7 @@
   
   .home-link {
     margin-right: 20px;
+    z-index: 99999;
   }
   
   .home-link,
