@@ -2,13 +2,17 @@
 <p align="center">
   <img src="/src/assets/images/BlueHorizonWhite.png" alt="logo">
 </p>
-Blue Horizon Resort adalah Website Resort penyedia fasilitas penginapan yang memiliki pemandangan, keamanan dan kepuasan pelanggan terbaik di Bali. 
-Layanan kami mencakup:
+Selamat datang di **Blue Horizon Resort**! Kami dengan bangga mempersembahkan pengalaman liburan yang tak terlupakan di Bali. Berlokasi di tepi pantai yang menakjubkan, kami menggabungkan keindahan alam dengan fasilitas modern untuk memastikan Anda merasa santai dan terhibur.
 
-- **Lorem Ipsum**: Lorem ipsum dolor sit amet.
-- **Lorem Ipsum**: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-- **Lorem Impsum**: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+Berikut adalah beberapa hal yang membuat Blue Horizon Resort menjadi pilihan utama Anda:
 
+- **Arena Bermain Anak**: Kami memahami pentingnya kesenangan bagi keluarga. Di sini, anak-anak dapat menikmati berbagai permainan dan aktivitas yang aman dan mengasyikkan.
+- **Kolam Keluarga**: Nikmati berenang di kolam renang kami yang luas. Dengan pemandangan laut yang menakjubkan, ini adalah tempat yang sempurna untuk bersantai dan menikmati sinar matahari.
+- **Spa**: Biarkan diri Anda terbuai oleh perawatan spa kami yang menenangkan. Dari pijat relaksasi hingga perawatan kulit, kami menawarkan pengalaman yang memanjakan.
+- **Pemandangan Pantai Sunset**: Jangan lewatkan momen indah saat matahari terbenam di cakrawala. Pantai kami menawarkan pemandangan yang menakjubkan dan romantis.
+- **Keamanan dan Kepuasan Pelanggan Terbaik**: Prioritas kami adalah kenyamanan dan kebahagiaan Anda. Tim kami siap memberikan layanan terbaik dan menjaga keamanan selama Anda menginap di Blue Horizon Resort.
+
+Kami mengundang Anda untuk menjelajahi keindahan alam, menikmati fasilitas kami, dan menciptakan kenangan tak terlupakan di Blue Horizon Resort. Selamat datang di surga tropis kami! 🌴🌊🌅
 <br><br>
 
 # Panduan Penggunaan Website Blue Horizon Resort
