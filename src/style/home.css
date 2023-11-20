@@ -918,26 +918,26 @@ width: 20%;
 }
 
 .sosmed ul {
-float: right;
-justify-content: space-between;
-margin: -15px 50px 0;
+  float: right;
+  justify-content: space-between;
+  margin: -15px 10px 0;
 }
 
 .sosmed ul a {
-display: grid;
-width: 25px;
-height: 45px;
-background-color: #104c97;
-color: #fff;
-border-radius: 50%;
-text-decoration: none;
-align-items: center;
-justify-content: center;
-z-index: 2;
+  display: grid;
+  width: 40px;
+  height: 40px;
+  background-color: #104c97;
+  color: #fff;
+  border-radius: 50%;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
 }
 
 .sosmed a:hover {
-color: #999;
+  color: #999;
 }
 
 .footer {
