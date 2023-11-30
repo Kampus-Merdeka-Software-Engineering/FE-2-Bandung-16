@@ -102,7 +102,7 @@ body {
     text-decoration: none;
   }
   .aboutus-header {
-    top: 101px;
+    top: 60px;
     left: -3468px;
     width: 8291px;
     height: 617px;
@@ -113,15 +113,15 @@ body {
   }
   .aboutus-rectangle1128 {
     top: 0px;
-    left: 0.0048828125px;
-    width: 8291px;
+    left: 0px;
+    width: 4825px;
     height: 617px;
     position: absolute;
   }
   .aboutus-rectangle1129 {
     top: 444px;
     left: 0px;
-    width: 8291px;
+    width: 4825px;
     height: 173px;
     position: absolute;
   }
