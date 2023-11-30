@@ -1,78 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Blue Horizon-Bali Resort Paradise</title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Blue Horizon-Bali Resort Paradise</title>
     <!-- 👇 css code file 👇 -->
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="stylesheet" href="src/style/home.css"/>
     <link rel="stylesheet" href="src/style/rules.css"/>
+    
+    
 </head>
 <body>
     <!-- 👇 ini header navigasibar 👇 -->
-    <header id="navbar">
-        <nav class="navbar-container container">
-            <a class="home-link">
-                <div class="navbar-logo"><img src="src/assets/images/BlueHorizonWhite.png" alt="LogoPeusahaan" width="135%"></div>
-            </a>
-            <button type="button" class="menu-right-auto" id="navbar-toggle" aria-controls="navbar-menu" aria-label="Toggle menu" aria-expanded="false">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-            <div id="navbar-menu" aria-labelledby="navbar-toggle">
-                <ul class="navbar-links">
-                    <li class="navbar-item">
-                        <div class="dropdown">
-                            <div class="dropbtn">
-                                <a class="links" href="index.html">Home</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="navbar-item">
-                        <div class="dropdown">
-                            <div class="dropbtn">
-                                <a class="links" href="#">Service</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="navbar-item">
-                        <div class="dropdown">
-                            <div class="dropbtn">
-                                <a class="links" href="/Pemesanan/pemesanan.html">Pemesanan</a>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="navbar-item">
-                        <div class="dropdown">
-                            <div class="dropdown">
-                                <div class="dropbtn flex align-item-center">
-                                    <span style="margin-right: 5px;">Information</span> <i class="las la-caret-down"></i>
-                                </div>
-                                <div class="dropdown-content">
-                                    <a href="/Informasi/contact-us.html">Contact Us</a>
-                                    <a href="/Informasi/about-us.html">Abous Us</a>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </header>
+  <header id="navbar">
+      <nav class="navbar-container container">
+          <a class="home-link">
+              <div class="navbar-logo"><img src="src/assets/images/BlueHorizonWhite.png" alt="LogoPeusahaan" width="135%"></div>
+          </a>
+          <button type="button" class="menu-right-auto" id="navbar-toggle" aria-controls="navbar-menu" aria-label="Toggle menu" aria-expanded="false">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+          <div id="navbar-menu" aria-labelledby="navbar-toggle">
+              <ul class="navbar-links">
+                  <li class="navbar-item">
+                      <div class="dropdown">
+                          <div class="dropbtn">
+                              <a class="links" href="index.html">Home</a>
+                          </div>
+                      </div>
+                  </li>
+                  <li class="navbar-item">
+                      <div class="dropdown">
+                          <div class="dropbtn">
+                              <a class="links" href="#">Service</a>
+                          </div>
+                      </div>
+                  </li>
+                  <li class="navbar-item">
+                      <div class="dropdown">
+                          <div class="dropbtn">
+                              <a class="links" href="pemesanan.html">Pemesanan</a>
+                          </div>
+                      </div>
+                  </li>
+                  <li class="navbar-item">
+                      <div class="dropdown">
+                          <div class="dropdown">
+                              <div class="dropbtn flex align-item-center">
+                                  <span style="margin-right: 5px;">Information</span> <i class="las la-caret-down"></i>
+                              </div>
+                              <div class="dropdown-content">
+                                  <a href="/Informasi/contact-us.html">Contact Us</a>
+                                  <a href="/Informasi/about-us.html">Abous Us</a>
+                              </div>
+                          </div>
+                      </div>
+                  </li>
+              </ul>
+          </div>
+      </nav>
+  </header>
+  
 
     <!-- 👇 your content here 👇 -->
-    <div class="container">
+    <!-- <div class="container">
         <img src="src/assets/images/resort 1.jpg" class="imgHome" alt="" />
+    </div> -->
+    <section class="home" id="home">
+      <div class="swiper home-slider">
+         <div class="swiper-wrapper">
+            <div class="swiper-slide slide" style="background: url(src/assets/images/Swim.png) no-repeat;">
+               <div class="content">
+                  <h3>Blue Horizon</h3>
+               </div>
+            </div>
+            <div class="swiper-slide slide" style="background: url(src/assets/images/Pool-Aerial.png) no-repeat;">
+               <div class="content">
+                  <h3>Blue Horizon</h3>
+               </div>
+            </div>
+            <div class="swiper-slide slide" style="background: url(src/assets/images/home-slide3.png) no-repeat;">
+               <div class="content">
+                  <h3>Blue Horizon</h3>
+               </div>
+            </div>
+            <div class="swiper-slide slide" style="background: url(src/assets/images/home-slide4.png) no-repeat;">
+               <div class="content">
+                  <h3>Blue Horizon</h3>
+               </div>
+            </div>
+         </div>
+         <div class="swiper-button-next"></div>
+         <div class="swiper-button-prev"></div>
+      </div>
+   </section>
     
     <div class="about">
 
         <span class="title"><p>South East Asian Beachside Paradise</p></span>
         <div class="text">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia sed
-          exercitationem, veniam molestiae, rem nisi ut sit doloremque inventore
-          natus iure non asperiores consequatur temporibus dicta porro debitis
-          alias eius! Iusto odio, incidunt dolorum similique eos, accusantium
-          distinctio ullam rem odit doloribus a vero explicabo amet dignissimos
-          quasi inventore quibusdam?
+          Discover a haven of tranquility nestled in the heart of Bali. Experience the perfect 
+          blend of luxury and cultural richness at Blue Horizon. Explore the allure of our exquisite
+          accommodations and embrace the beauty of Bali. Your extraordinary journey begins
+          here.
+
         </div>
       </div>
       <div class="fasilitas">
@@ -87,17 +125,17 @@
       </div>
       <div class="deskFasilitas">
         <div class="deskFasilitasTop">
-          <img src="src/assets/images/resort 1.jpg" alt="" />
+          <img src="src/assets/images/ocean-front-dinning.png" alt="" />
           <div class="textFasilitas">
             <h1>Oceanfront Dining</h1>
             <br />
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
-              reiciendis error illo? Unde non aut modi, esse, animi accusamus
-              dolor provident odio nulla eum quod tempore error, officiis incidunt
-              quo nisi ea assumenda. Ducimus praesentium cumque assumenda dolores
-              debitis consectetur eaque ipsam molestias laudantium aliquam at
-              repudiandae, optio nisi asperiores!
+              "Secure your spot in our inviting dining room for a memorable
+              dining experience. Our cozy and elegant atmosphere sets the
+              stage for a delightful meal, perfect for intimate gatherings or 
+              special celebrations. 
+              Reserve your table now to savor exquisite cuisine in a 
+              welcoming environment."
             </p>
             <br />
             <div class="kotakFasilitas">Explore Dining & Drink</div>
@@ -108,31 +146,31 @@
             <h1>Meeting Event and Weedings</h1>
             <br />
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
-              reiciendis error illo? Unde non aut modi, esse, animi accusamus
-              dolor provident odio nulla eum quod tempore error, officiis incidunt
-              quo nisi ea assumenda. Ducimus praesentium cumque assumenda dolores
-              debitis consectetur eaque ipsam molestias laudantium aliquam at
-              repudiandae, optio nisi asperiores!
+              "Secure your spot in our inviting dining room for a memorable
+              dining experience. Our cozy and elegant atmosphere sets the
+              stage for a delightful meal, perfect for intimate gatherings or 
+              special celebrations. 
+              Reserve your table now to savor exquisite cuisine in a 
+              welcoming environment."
             </p>
             <br />
             <div class="kotakFasilitas">Plant Your Event</div>
           </div>
-          <img src="src/assets/images/resort 1.jpg" alt="" />
+          <img src="src/assets/images/event-wedding.png" alt="" />
         </div>
       </div>
       <div class="explore">
-        <img src="src/assets/images/resort 1.jpg" alt="" />
+        <img src="src/assets/images/at-our-ressort.png" alt="" />
         <div class="teksExplore">
           <h1>At Our Resort</h1>
           <br />
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
-            reiciendis error illo? Unde non aut modi, esse, animi accusamus dolor
-            provident odio nulla eum quod tempore error, officiis incidunt quo
-            nisi ea assumenda. Ducimus praesentium cumque assumenda dolores
-            debitis consectetur eaque ipsam molestias laudantium aliquam at
-            repudiandae, optio nisi asperiores!
+            "Secure your spot in our inviting dining room for a memorable
+              dining experience. Our cozy and elegant atmosphere sets the
+              stage for a delightful meal, perfect for intimate gatherings or 
+              special celebrations. 
+              Reserve your table now to savor exquisite cuisine in a 
+              welcoming environment."
           </p>
           <br />
           <div class="kotakExplore">Explore Our Resort</div>
@@ -193,7 +231,11 @@
 
 
     <!-- 👇 javascript code file 👇 -->
-    <script src="./src/js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="src/js/pscript.js"></script>
+    <script src="src/js/index.js"></script>
+    
+    
   </body>
 </html>
 
