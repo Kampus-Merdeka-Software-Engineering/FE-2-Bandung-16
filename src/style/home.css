@@ -405,7 +405,7 @@
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glowingTitle 1s ease-in-out infinite alternate;
 }
-
+/* start */
 .home-fasilitas {
   background-color: #ffffff;
   display: flex;
@@ -864,7 +864,7 @@ height: 500px;
 object-fit: cover;
 }
 
-.ruangTamu{
+.offer{
 background-color: #fff;
 padding: 7px 15px;
 width: fit-content;

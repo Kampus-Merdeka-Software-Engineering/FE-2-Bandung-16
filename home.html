@@ -11,18 +11,18 @@
    <!-- swiper js cdn link -->
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <!-- custom css link -->
-   <link rel="stylesheet" href="src/style/pemesanan.css">
+    <link rel="stylesheet" href="src/style/global.css">
+   <!-- <link rel="stylesheet" href="src/style/pemesanan.css"> -->
 </head>
 <body>
-
+<!-- 👇 ini header navigasibar 👇 -->
    <!-- header -->
-
    <header class="header">
       <div class="logo">
-         <img src="src/assets/images/BlueHorizonWhite.png" alt="LogoResort" width="55%">
+         <img src="src/assets/images/BlueHorizonWhite.png" alt="LogoResort" width="75%">
       </div>
       <nav class="navbar">
-         <ul>
+        <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="index.html">Facility</a></li>
             <li><a href="#room">Room</a></li>
@@ -38,11 +38,9 @@
       </div>
       <div id="menu-btn" class="fas fa-bars"></div>
    </header>
-
    <!-- end -->
 
-   <!-- home -->
-
+   <!-- Slide Home -->
    <section class="home" id="home">
 
       <div class="swiper home-slider">
@@ -77,69 +75,133 @@
 
          <div class="swiper-button-next"></div>
          <div class="swiper-button-prev"></div>
-
       </div>
-
    </section>
-
    <!-- end -->
 
-   <!-- availability -->
+   <!-- About home -->
+   <div class="about" id="about-home">
 
-   <section class="availability">
+    <span class="title"><p>South East Asian Beachside Paradise</p></span>
+    <div class="text">
+      Discover a haven of tranquility nestled in the heart of Bali. Experience the perfect 
+      blend of luxury and cultural richness at Blue Horizon. Explore the allure of our exquisite
+      accommodations and embrace the beauty of Bali. Your extraordinary journey begins
+      here.
 
-      <form action="">
-
-         <div class="box">
-            <p>check in <span>*</span></p>
-            <input type="date" class="input">
-         </div>
-
-         <div class="box">
-            <p>check out <span>*</span></p>
-            <input type="date" class="input">
-         </div>
-
-         <div class="box">
-            <p>adults <span>*</span></p>
-            <select name="adults" id="" class="input">
-               <option value="1">1 adults</option>
-               <option value="2">2 adults</option>
-               <option value="3">3 adults</option>
-               <option value="4">4 adults</option>
-               <option value="5">5 adults</option>
-            </select>
-         </div>
-
-         <div class="box">
-            <p>children <span>*</span></p>
-            <select name="child" id="" class="input">
-               <option value="1">None child</option>
-               <option value="2">1 child</option>
-               <option value="3">2 child</option>
-               <option value="4">3 child</option>
-               <option value="5">4 child</option>
-               <option value="6">5 child</option>
-            </select>
-         </div>
-
-         <div class="box">
-            <p>rooms <span>*</span></p>
-            <select name="rooms" id="" class="input">
-               <option value="1">1 rooms</option>
-               <option value="2">2 rooms</option>
-               <option value="3">3 rooms</option>
-               <option value="4">4 rooms</option>
-               <option value="5">5 rooms</option>
-               <option value="6">6 rooms</option>
-            </select>
-         </div>
-
-         <input type="submit" value="check availability" class="btn">
-
-      </form>
-
-   </section>
+    </div>
+  </div>
+  <div class="fasilitas">
+    <div class="keterangan">
+      <img src="src/assets/images/ruang tamu.jpg" alt="" />
+      <div class="offer">Rooms and Suites</div>
+    </div>
+    <div class="keterangan">
+      <img src="src/assets/images/Aerial exterior 1.png" alt="" />
+      <div class="offer">Villas</div>
+    </div>
+  </div>
+  <div class="deskFasilitas">
+    <div class="deskFasilitasTop">
+      <img src="src/assets/images/ocean-front-dinning.png" alt="gambar resort1" height="50%" />
+      <div class="textFasilitas">
+        <h1>Oceanfront Dining</h1>
+        <br />
+        <p>
+          "Secure your spot in our inviting dining room for a memorable
+          dining experience. Our cozy and elegant atmosphere sets the
+          stage for a delightful meal, perfect for intimate gatherings or 
+          special celebrations. 
+          Reserve your table now to savor exquisite cuisine in a 
+          welcoming environment."
+        </p>
+        <br />
+        <div class="kotakFasilitas">Explore Dining & Drink</div>
+      </div>
+    </div>
+    <div class="deskFasilitasBot">
+      <div class="textFasilitas">
+        <h1>Meeting Event and Weedings</h1>
+        <br />
+        <p>
+          "Secure your spot in our inviting dining room for a memorable
+          dining experience. Our cozy and elegant atmosphere sets the
+          stage for a delightful meal, perfect for intimate gatherings or 
+          special celebrations. 
+          Reserve your table now to savor exquisite cuisine in a 
+          welcoming environment."
+        </p>
+        <br />
+        <div class="kotakFasilitas">Plant Your Event</div>
+      </div>
+      <img src="src/assets/images/event-wedding.png" alt="" />
+    </div>
+  </div>
+  <div class="explore">
+    <img src="src/assets/images/at-our-ressort.png" alt="" />
+    <div class="teksExplore">
+      <h1>At Our Resort</h1>
+      <br />
+      <p>
+        "Secure your spot in our inviting dining room for a memorable
+          dining experience. Our cozy and elegant atmosphere sets the
+          stage for a delightful meal, perfect for intimate gatherings or 
+          special celebrations. 
+          Reserve your table now to savor exquisite cuisine in a 
+          welcoming environment."
+      </p>
+      <br />
+      <div class="kotakExplore">Explore Our Resort</div>
+    </div>
+  </div>
+  <div class="containerMap">
+    <div class="deskMap">
+      <div class=""><div class="titleMap"><img src="src/assets/images/BlueHorizonWhite.png" width="100%"></div>
+      <br><br>
+      <div class="alamatMap">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, distinctio accusantium! Quas libero esse saepe voluptatum iure praesentium nulla excepturi.</div>
+      <br>
+      <div class="noTelpMap">Call us <br> (0360)161616</div>
+      <br>
+      <div class="btnMap">
+        <button class="emailMap">E-mail Us</button>
+        <button class="linkMap">Show in Google Maps</button>
+      </div>
+    </div>
+  </div>
+    <div id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.277023287615!2d106.82385307571464!3d-6.227160160987309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e4734a8de3%3A0xb2ad7eacc88d7f3e!2sRevoU!5e0!3m2!1sid!2sid!4v1700141863764!5m2!1sid!2sid" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <div class="aboutFooter">
+    <img src="src/assets/images/Logo-JTExpress.png" alt="">
+    <div class="footer-alamat">
+        <div class="kantorPusat">
+            <h3>KANTOR PUSAT</h3>
+            <br>
+            <p>PT. Cakrawala Biru</p>
+            <p>Jl. DR. Ide Anak Agung Gde Agung, Daerah Khusus Ibukota Jakarta</p>
+            <p>Contact center. 089513891995</p>
+        </div>
+        <div class="tentangBlue Horizon">
+            <h3>Tentang Blue Horizon</h3>
+            <br>
+            <a class="BlueHorizonProf" href="home.html"><p>Profil Perusahaan</p></a>
+        </div>
+        <div class="services">
+            <h3>Service</h3>
+            <br>
+            <a class="BlueHorizonProf" href="#"><p>Fasilitan Kami</p></a>
+        </div>
+    </div>
+    <br><br>
+    <div class="sosmed">
+      <ul><a class="instagram" href="
+        #"><img src="src/assets/images/instagram.png" width="20px"></i></a></ul>
+      <ul><a class="twitter" href="#"><img src="src/assets/images/twitter.png" width="20px"></i></a></ul>
+      <ul><a class="youtube" href="#"><img src="src/assets/images/youtube.png" width="20px"></i></a></ul>
+    </div>
+  </div>
+</div>
 
    <!-- end -->
 
