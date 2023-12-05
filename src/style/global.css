@@ -191,11 +191,18 @@ section{
     color: #104c97;
 }
 
+
 .title p{
     font-size: 35px;
     font-weight: bold;
     line-height: 40px;
     color: #ffffff;
+}
+.title2 p{
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 40px;
+    color: #104c97;
 }
 
 .titleBlue p{
@@ -219,6 +226,17 @@ section{
     flex-direction: row;
     gap: 100px;
     padding: 30px;
+    margin-top: -10px;
+}
+.about2{
+    background-color: #ffffff;
+    color: #104c97;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 100px;
+    padding: 15px;
     margin-top: -10px;
 }
 
