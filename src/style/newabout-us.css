@@ -680,7 +680,7 @@ section{
 
 /* media queries */
 
-@media (min-width:1280px){
+@media (max-width:991px){
 
     html{
         font-size: 55%;
