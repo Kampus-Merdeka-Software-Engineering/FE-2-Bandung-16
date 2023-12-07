@@ -224,8 +224,7 @@ section{
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    gap: 100px;
-    padding: 30px;
+    padding: 5rem 7%;
     margin-top: -10px;
 }
 .about2{
@@ -286,11 +285,11 @@ section{
 .deskFasilitasTop .textFasilitas{
     color: #fff;
     background-color: #104c97;
-    width: 40%;
+    /* width: 40%; */
     padding: 40px;
     position: relative;
     height: fit-content;
-    margin-left: 65px;
+    margin-left: -16%;
 }
 
 .deskFasilitasBot .textFasilitas{
@@ -339,7 +338,7 @@ section{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 220px;
+    margin-top: 260px;
     background-color: #104c97;
     justify-content: space-between;
     align-items: center;
@@ -479,13 +478,27 @@ section{
     .header{
         padding: 2rem 3rem;
     }
+    /* .fasilitas img {
+        padding-top: 25px;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    } */
 
 }
 
-@media (max-width: 768px){
+@media ( max-width:768px){
 
     #menu-btn{
         display: inline-block;
+    }
+
+    .title p {
+        font-size: 130%;
+        font-weight: bold;
+        line-height: 2rem;
+        color: #ffffff;
+        margin: 1rem;
     }
 
     .header .navbar{
@@ -520,6 +533,29 @@ section{
     .home .slide .content{
         width: 50rem;
     }
+    /* Mobile Disini */
+    .fasilitas img {
+    padding-top: 25px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    }
+    
+    .deskFasilitasTop .textFasilitas {
+        color: #fff;
+        background-color: #104c97;
+        /* width: 40%; */
+        padding: 40px;
+        position: relative;
+        /* height: 32%; */
+        /* margin-left: 65px; */
+        font-size: 80%;
+    }
+    .text{
+        line-height: 1rem;
+        font-size: 100%;
+    }
+
     @media (max-width: 450px){
 
         html{
@@ -535,5 +571,7 @@ section{
         }
     
     }
+
+}
 
 }

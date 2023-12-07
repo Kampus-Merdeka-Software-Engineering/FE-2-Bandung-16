@@ -419,7 +419,7 @@ section{
   }
   
   #code-acc-msg {
-    width: 15%;
+    /* width: 15%; */
     height: 90%;
     text-align: center;
     margin: 5;
@@ -454,7 +454,7 @@ section{
   }
   
   #code-form-submit {
-    width: 10%;
+    /* width: 10%; */
     padding: 7px;
     border: none;
     border-radius: 5px;
@@ -470,7 +470,7 @@ section{
 
 .aboutFooter {
     background-color: #fff;
-    padding: 30px 50px 50px;
+    padding: 5rem 5%;
 }
     
 .aboutFooter h3 {
