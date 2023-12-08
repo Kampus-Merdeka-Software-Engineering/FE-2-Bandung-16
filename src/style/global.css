@@ -263,6 +263,7 @@ section{
     margin-top: -55px;
     margin-left: 20px;
     border-radius: 5px;
+    font-size: 10px;
 }
 
 .deskFasilitas{
@@ -274,6 +275,7 @@ section{
     display: flex;
     align-items: center;
     padding: 10px 0px;
+    overflow: hidden;
 }
 
 .deskFasilitasTop img, .deskFasilitasBot img{
@@ -312,7 +314,12 @@ section{
     border-radius: 5px;
     width: fit-content;
 }
-
+.explore {
+    display: flex;
+    align-items: center;
+    padding: 15px 0px 30px;
+    overflow: hidden;
+}
 .explore img{
     min-width: 100%;
     max-width: 100%;
@@ -327,9 +334,9 @@ section{
     color: #000000;
     width: 40%;
     padding: 50px;
-    position: relative;
-    margin-top: -500px;
-    margin-left: 45%;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 50%;
     border-radius: 10px;
 }
     
@@ -500,11 +507,11 @@ section{
     }
 
     .title p {
-        font-size: 130%;
-        font-weight: bold;
-        line-height: 2rem;
-        color: #ffffff;
-        margin: 1rem;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 2rem;
+    color: #ffffff;
+    margin: -1rem;
     }
 
     .header .navbar{
@@ -539,95 +546,95 @@ section{
     .home .slide .content{
         width: 50rem;
     }
-    /* Mobile Disini */
+    /* Mobile Disini
     .fasilitas img {
     padding-top: 25px;
     width: 100%;
     height: auto;
     object-fit: cover;
     }
-    
+
     .deskFasilitasTop .textFasilitas {
-        color: #fff;
-        background-color: #104c97cc;
-        width: 65%;
-        padding: 20px;
-        position: relative;
-        height: auto;
-        margin-left: -166px;
-        font-size: 50%;
-        z-index: 1;
+    color: #fff;
+    background-color: #104c97cc;
+    width: 65%;
+    padding: 20px;
+    position: relative;
+    height: auto;
+    margin-left: -166px;
+    font-size: 50%;
+    z-index: 1;
     }
 
     .deskFasilitasBot .textFasilitas {
-        color: #fff;
-        background-color: #104c97cc;
-        width: 65%;
-        padding: 20px;
-        position: relative;
-        height: auto;
-        margin-left: 0px;
-        margin-right: -160px;
-        font-size: 50%;
-        z-index: 1;
+    color: #fff;
+    background-color: #104c97cc;
+    width: 65%;
+    padding: 20px;
+    position: relative;
+    height: auto;
+    margin-left: 0px;
+    margin-right: -160px;
+    font-size: 50%;
+    z-index: 1;
     }
 
     .text{
-        line-height: 1rem;
-        font-size: 100%;
+    line-height: 1.6rem;
+    font-size: 10px;
     }
     .explore img{
-        display: flex;
-        align-items: center;
-        /* padding: 10px 0px; */
-        min-width: 100%;
-        max-width: 100%;
-        min-height: 100%;
-        max-height: 100%;
-        padding: 0px 50px;
+    display: flex;
+    align-items: center;
+  
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    padding: 0px 50px;
 
     }
-        .teksExplore{
-        color: #104c97cc;
-        background-color: #ffffff;
-        width: 45%;
-        padding: 20px;
-        position: relative;
-        /* height: 14%; */
-        margin-top: -155px;
-        margin-left: 157px;
-        font-size: 50%;
-        z-index: 3;
-        border: #104C97
+    .teksExplore{
+    color: #104c97cc;
+    background-color: #ffffff;
+    width: 45%;
+    padding: 20px;
+    position: relative;
+  
+    margin-top: -155px;
+    margin-left: 157px;
+    font-size: 50%;
+    z-index: 3;
+    border: #104C97
     }
 
     .containerMap{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        margin-top: 5vh;
-        background-color: #104c97;
-        justify-content: space-between;
-        align-items: center;
-        flex-wrap: wrap;
-        gap: 30px;
-        padding: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5vh;
+    background-color: #104c97;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 30px;
     }
     .alamatMap, .noTelpMap, .btnMap button {
-        font-size: 1.5vh;
+    font-size: 1.5vh;
     }
 
     #map {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: auto;
-        inline-size: -webkit-fill-available;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    inline-size: -webkit-fill-available;
     }
     .aboutFooter {
-        background-color: #fff;
-        padding: 3rem 5%;
-    }
+    background-color: #fff;
+    padding: 3rem 5%;
+    } */
 
     @media (max-width: 450px){
 
@@ -642,6 +649,117 @@ section{
         .home .slide .content h3{
             font-size: 3rem;
         }
+
+        .fasilitas img {
+            padding-top: 25px;
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+            }
+
+         .deskFasilitasTop, .deskFasilitasBot {
+                display: flex;
+                align-items: center;
+                padding: 15px 0px 30px;
+                overflow: hidden;
+            }
+            .deskFasilitasTop img, .deskFasilitasBot img {
+                min-width: 100%;
+                max-width: 100%;
+                min-height: 100%;
+                max-height: 100%;
+                size: 10px;
+            }
+            .deskFasilitasTop .textFasilitas {
+                color: #fff;
+                background-color: #104c97cc;
+                width: 40%;
+                padding: 10px;
+                position: absolute;
+                height: fit-content;
+                margin-left: 39%;
+                font-size: 80%;
+                z-index: 1;
+                text-align: -webkit-center;
+            }
+           
+        
+            .deskFasilitasBot .textFasilitas {
+                color: #fff;
+                background-color: #104c97cc;
+                width: 40%;
+                padding: 10px;
+                position: absolute;
+                height: fit-content;
+                margin-left: -3%;
+                font-size: 80%;
+                z-index: 1;
+                text-align: -webkit-center;
+            }
+        
+            .text{
+            line-height: 1.6rem;
+            font-size: 7px;
+            }
+
+            .explore {
+                display: flex;
+                align-items: center;
+                padding: 15px 0px 30px;
+                overflow: hidden;
+            }
+            .explore img{
+            display: flex;
+            align-items: center;
+            /* padding: 10px 0px; */
+            min-width: 100%;
+            max-width: 100%;
+            min-height: 100%;
+            max-height: 100%;
+            padding: 0px 50px;
+        
+            }
+            .teksExplore{
+                color: #104c97cc;
+                background-color: #ffffff;
+                width: 45%;
+                padding: 20px;
+                position: absolute;
+                /* height: 14%; */
+                /* margin-top: -155px; */
+                /* margin-left: 157px; */
+                font-size: 80%;
+                z-index: 3;
+                border: #104C97;
+            }
+        
+            .containerMap{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-top: 5vh;
+            background-color: #104c97;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            padding: 30px;
+            }
+            .alamatMap, .noTelpMap, .btnMap button {
+            font-size: 1.5vh;
+            }
+        
+            #map {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: auto;
+            inline-size: -webkit-fill-available;
+            }
+            .aboutFooter {
+            background-color: #fff;
+            padding: 3rem 5%;
+            }
     
     }
 
