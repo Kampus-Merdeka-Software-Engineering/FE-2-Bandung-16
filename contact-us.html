@@ -5,93 +5,206 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us Page</title>
-    <link rel="stylesheet" href="src/style/contact-us.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <link rel="stylesheet" href="CSS/contact-us.css">
+    <link rel="stylesheet" href="CSS/global.css">
 </head>
 
 <body>
-    <section>
-        <div class="contactUs">
-            <div class="title">
-                <h2>Contact Us</h2>
-            </div>
-            <div class="box">
-                <!-- Form -->
-                <div class="contact form"><h3>Send a Message</h3>
-                    <form>
-                        <div class="formBox">
-                            <div class="row50">
-                                <div class="InputBox">
-                                    <span>First Name</span>
-                                    <input type="text" placeholder="putri">
-                                </div>
-                                <div class="InputBox">
-                                    <span>Last Name</span>
-                                    <input type="text" placeholder="cantika">
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row50">
-                            <div class="InputBox">
-                                <span>Email</span>
-                                <input type="text" placeholder="group16revou@gmail.com">
-                            </div>
-                            <div class="InputBox">
-                                <span>Mobile</span>
-                                <input type="text" placeholder="082113456789">
-                            </div>
-                        </div>
-                        <div class="row100">
-                            <div class="InputBox">
-                                <span>Message</span>
-                                <textarea placeholder="Write Your Message Here..."></textarea>
-                            </div>
-                        </div>
-
-                        <div class="row100">
-                            <div class="InputBox">
-                                <input type="submit" value="Send">
-                            </div>
-                        </div>
-                </div>
-                </form>
-            </div>
-
-            <!-- info Box -->
-            <div class="contact info">
-                <h3>Contact Info</h3>
-                <div class="infoBox">
-                    <div>
-                        <span><ion-icon name="location"></ion-icon></span>
-                        <p>Cibinong, Bogor <br>Indonesia</p>
-                    </div>
-                    <div>
-                        <span><ion-icon name="mail"></ion-icon></span>
-                        <a href="revou:group16@gmail.com">group16@gmail.com</a>
-                    </div>
-                    <div>
-                        <span><ion-icon name="call"></ion-icon></span>
-                        <a href="tel: 08123456789">08213456789</a>
-                    </div>
-                    <!-- Social Media Links -->
-                    <ul class="sci">
-                        <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
-                        <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
-                        <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+<!-- 👇 ini header navigasibar 👇 -->
+    <!-- header -->
+    <header class="header">
+        <div class="logo">
+            <img src="images/BlueHorizonWhite.png" alt="LogoResort" width="75%">
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#Facility">Facility</a></li>
+                <li><a href="pemesanan.html">Room</a></li>
+                <li><a href="pemesanan.html">Book now</a></li>
+                <li><a href="#information">Information</a>
+                    <ul>
+                        <li><a href="contact-us.html">Contact us</a></li>
+                        <li><a href="about-us.html">About us</a></li>
                     </ul>
+                </li>
+            </ul>
+        </nav>
+        <div id="menu-btn" class="fas fa-bars"></div>
+    </header>
+    <!-- end -->
+
+<h1 style="color: white;">Frequently Asked Questions</h1>
+
+<div class="faqs-container">
+	<div class="faq active">
+		<h3 class="faq-title">
+			What is Blue Horizon Resort?
+		</h3>
+		<p class="faq-text">
+			a 5-star resort located in Nusa Dua, Bali, with views of the Indian Ocean and a secluded white sandy beach. 
+            This resort offers a variety of luxurious and traditional facilities, such as 
+            4 swimming pools, fitness center, spa, restaurant and wedding venue
+		</p>
+		<button class="faq-toggle">
+			<i class="fas fa-chevron-down"></i>
+			<i class="fas fa-times"></i>
+		</button>
+	</div>
+
+	<div class="faq">
+		<h3 class="faq-title">
+			What types of Rooms Does Bali Horizon offer?
+		</h3>
+		<p class="faq-text">
+			We Offer Daily, Deluxe, Panoramic, Honey, exclusive and Familiy. Each Designed To Cater To Different Preferences And Needs.
+		</p>
+		<button class="faq-toggle">
+			<i class="fas fa-chevron-down"></i>
+			<i class="fas fa-times"></i>
+		</button>
+	</div>
+
+	<div class="faq">
+		<h3 class="faq-title">
+			Can I Host Events Or Conferences At Blue Horizon?
+		</h3>
+		<p class="faq-text">
+			Yes, Blue Horizon can hold weddings and other formal events. 
+            Contact our team to discuss your specifications and requests and make the moment memorable.
+		</p>
+		<button class="faq-toggle">
+			<i class="fas fa-chevron-down"></i>
+			<i class="fas fa-times"></i>
+		</button>
+	</div>
+</div>
+
+<!-- SOCIAL PANEL HTML -->
+<div class="social-panel-container">
+	<div class="social-panel">
+		<p>Created with <i class="fa fa-heart"></i> by
+			<a target="_blank" href="https://florin-pop.com">Florin Pop</a>
+		</p>
+		<button class="close-btn"><i class="fas fa-times"></i></button>
+		<ul>
+			<li>
+				<a href="https://www.patreon.com/florinpop17" target="_blank">
+					<i class="fab fa-discord"></i>
+				</a>
+			</li>
+			<li>
+				<a href="https://twitter.com/florinpop1705" target="_blank">
+					<i class="fab fa-twitter"></i>
+				</a>
+			</li>
+			<li>
+				<a href="https://linkedin.com/in/florinpop17" target="_blank">
+					<i class="fab fa-linkedin"></i>
+				</a>
+			</li>
+			<li>
+				<a href="https://facebook.com/florinpop17" target="_blank">
+					<i class="fab fa-facebook"></i>
+				</a>
+			</li>
+			<li>
+				<a href="https://instagram.com/florinpop17" target="_blank">
+					<i class="fab fa-instagram"></i>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<button class="floating-btn">
+	<a href="about-us.html" style="color: goldenrod;">Get in Touch</a>
+</button>
+
+       <!-- contact us -->
+       <section>
+        <div class="container">
+            <div class="contactInfo"> 
+                <div>
+                  <img src="images/Kids Pool and mini slide.png" alt="images">
+                  <img src="images/Aerial exterior 1.png" alt="images">
+                  <img src="images/Resort Overview-1.png" alt="images">
+                </div>           
+            </div>
+                <div class="contactForm">
+                    <h2>Contact with Us</h2>
+                    <div class="formBox">
+                    <div class="inputBox w50">
+                        <input type="text" name="" required="">
+                        <span>First Name</span>
+                    </div>
+                    <div class="inputBox w50">
+                        <input type="text" required="">
+                        <span>Last Name</span>
+                    </div>
+                    <div class="inputBox w50">
+                        <input type="email" required="">
+                        <span>Email Address</span>
+                    </div>
+                    <div class="inputBox w50">
+                        <input type="text" required="">
+                        <span>Mobile Number</span>
+                    </div>
+                    <div class="inputBox w100">
+                        <textarea required=""></textarea>
+                        <span>Write your message here...</span>
+                    </div>
+                    <div class="inputBox w100">
+                        <input type="submit" value="Send">
+                    </div>
                 </div>
-            </div>
+            </div>         
+    </div>
+</section>
+ <!-- footer -->
+ <br>
+ <div class="aboutFooter">
+     <img src="images/blueHorizonlogoBlue.png" alt="Logo Resort" width="25%">
+     <div class="footer-alamat">
+         <div class="kantorPusat">
+             <h3>KANTOR PUSAT</h3>
+             <br>
+             <p>PT. Cakrawala Biru</p>
+             <p>Jl. DR. Ide Anak Agung Gde Agung, Daerah Khusus Ibukota Jakarta</p>
+             <p>Contact center. (0360)161616</p>
+         </div>
+         <div class="tentangBlue Horizon">
+             <h3>Tentang Blue Horizon</h3>
+             <br>
+             <a class="BlueHorizonProf" href="home.html">
+                 <p>Profil Perusahaan</p>
+             </a>
+         </div>
+         <div class="services">
+             <h3>Service</h3>
+             <br>
+             <a class="BlueHorizonProf" href="#">
+                 <p>Fasilitan Kami</p>
+             </a>
+         </div>
+     </div>
+     <br><br>
+     <div class="share">
+         <a href="#" class="fab fa-facebook-f"></a>
+         <a href="#" class="fab fa-instagram"></a>
+         <a href="#" class="fab fa-twitter"></a>
+         <a href="#" class="fab fa-youtube"></a>
+     </div>
+ </div>
 
-            <!-- Map -->
-            <div class="contact map">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1982.1477777717234!2d106.84067873839574!3d-6.48420468332328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c175562a32a3%3A0x8cce62bf5b8baa08!2sCibinong%20City%20Mall!5e0!3m2!1sid!2sid!4v1700506327591!5m2!1sid!2sid"
-                    style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
+ </div>
+ <div class="footer">
+     <p>Copyright © 2023 PT. Blue Horizon Resort. All Rights Reserved</p>
+ </div>
+ </div>
 
-            <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-            <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-        
+ <!-- end -->
+ <script src="JS/contact-us.js"></script>
+
 </body>
 </html>
