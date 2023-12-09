@@ -186,14 +186,14 @@ section{
 /* end */
 
 .section-career-header {
-    background-image: url(/images/circle_najid.png),
-        url(/images/circle_agata.png),
-        url(/images/circle_eki.png),
-        url(/images/circle_reiffa.png),
-        url(/images/stary.gif),
-        url(/images/stary.gif),
-        url(/images/circle_yayah.png),
-        url(/images/stary.gif);
+    background-image: url(https://raw.githubusercontent.com/Kampus-Merdeka-Software-Engineering/FE-2-Bandung-16/main/images/circle_najid.png),
+        url(https://raw.githubusercontent.com/Kampus-Merdeka-Software-Engineering/FE-2-Bandung-16/main/images/circle_agata.png),
+        url(https://raw.githubusercontent.com/Kampus-Merdeka-Software-Engineering/FE-2-Bandung-16/main/images/circle_eki.png),
+        url(https://raw.githubusercontent.com/Kampus-Merdeka-Software-Engineering/FE-2-Bandung-16/main/images/circle_reiffa.png),
+        url(https://raw.githubusercontent.com/Kampus-Merdeka-Software-Engineering/FE-2-Bandung-16/main/images/stary.gif),
+        url(https://raw.githubusercontent.com/Kampus-Merdeka-Software-Engineering/FE-2-Bandung-16/main/images/stary.gif),
+        url(https://raw.githubusercontent.com/Kampus-Merdeka-Software-Engineering/FE-2-Bandung-16/main/images/circle_yayah.png),
+        url(https://raw.githubusercontent.com/Kampus-Merdeka-Software-Engineering/FE-2-Bandung-16/main/images/stary.gif);
 
     background-position: 97% 61%, 53% 105%, 80.6% 36%, 70% 112%, 33% 26%, 49% 146%, 63% 29%, 96% -6%;
     background-size: 200px, 200px, 210px, 200px, 10%, 20%, 210px, auto;        
@@ -766,16 +766,6 @@ section{
             /* right: -5vh; */
         }
         .section-career-header {
-            background-image: 
-                url(/images/circle_najid.png),
-                url(/images/circle_agata.png),
-                url(/images/circle_eki.png),
-                url(/images/circle_reiffa.png),
-                url(/images/stary.gif),
-                url(/images/stary.gif),
-                url(/images/circle_yayah.png),
-                url(/images/stary.gif);
-        
                 background-position: 98% 78%, 38% 100%, 75.6% 61%, 69% 103%, 26% 59%, 5% 105%, 49% 61%, 92% 26%;
                 background-size: 100px, 100px, 100px, 100px, 120px, 120px, 100px, 192px;
                 background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
