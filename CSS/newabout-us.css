@@ -185,17 +185,15 @@ section{
 
 /* end */
 
-
-
 .section-career-header {
-    background-image: url("/images/circle_najid.png"),
-        url("/images/circle_agata.png"),
-        url("/images/circle_eki.png"),
-        url("/images/circle_reiffa.png"),
-        url("/images/stary.gif"),
-        url("/images/stary.gif"),
-        url("/images/circle_yayah.png"),
-        url("/images/stary.gif");
+    background-image: url(/images/circle_najid.png),
+        url(/images/circle_agata.png),
+        url(/images/circle_eki.png),
+        url(/images/circle_reiffa.png),
+        url(/images/stary.gif),
+        url(/images/stary.gif),
+        url(/images/circle_yayah.png),
+        url(/images/stary.gif);
 
     background-position: 97% 61%, 53% 105%, 80.6% 36%, 70% 112%, 33% 26%, 49% 146%, 63% 29%, 96% -6%;
     background-size: 200px, 200px, 210px, 200px, 10%, 20%, 210px, auto;        
