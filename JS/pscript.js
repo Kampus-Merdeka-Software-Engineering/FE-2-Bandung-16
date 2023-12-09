@@ -62,6 +62,9 @@ ReedemButton.addEventListener("click",(e) => {
     if (code === "hotel"){
         alert("You Succesfully Reedem Code");
         location.reload();
+    } else if(code === "BANDUNG16"){
+        alert("You Succesfully Reedem Code");
+        location.reload();
     } else{
         CodeAccMsg.style.opacity = 1;
     }
