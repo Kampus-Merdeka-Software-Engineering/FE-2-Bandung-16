@@ -188,14 +188,14 @@ section{
 
 
 .section-career-header {
-    background-image: url("/images/circle_najid.png"),
-        url("/images/circle_agata.png"),
-        url("/images/circle_eki.png"),
-        url("/images/circle_reiffa.png"),
-        url("/images/stary.gif"),
-        url("/images/stary.gif"),
-        url("/images/circle_yayah.png"),
-        url("/images/stary.gif");
+    background-image: url("images/circle_najid.png"),
+        url("images/circle_agata.png"),
+        url("images/circle_eki.png"),
+        url("images/circle_reiffa.png"),
+        url("images/stary.gif"),
+        url("images/stary.gif"),
+        url("images/circle_yayah.png"),
+        url("images/stary.gif");
 
     background-position: 97% 61%, 53% 105%, 80.6% 36%, 70% 112%, 33% 26%, 49% 146%, 63% 29%, 96% -6%;
     background-size: 200px, 200px, 210px, 200px, 10%, 20%, 210px, auto;        
@@ -460,7 +460,7 @@ section{
 .personLeft .textRoles{
     color: #fff;
     background-color: #104c97;
-    background-image: url(/images/bgRolesleft.png);
+    background-image: url(images/bgRolesleft.png);
     width: auto;
     padding: 40px 6% 40px 60rem;
     position: relative;
@@ -475,7 +475,7 @@ section{
 .personRight .textRoles{
     color: rgb(255, 255, 255);
     background-color: rgb(16, 76, 151);
-    background-image: url(/images/bgRolesright.png);
+    background-image: url(images/bgRolesright.png);
     width: fit-content;
     padding: 55px 35% 40px 10rem;
     position: relative;
@@ -1101,16 +1101,16 @@ section
             /* right: -5vh; */
         }
         .section-career-header {
-            background-image: url("/images/circle_najid.png"),
-                url("/images/circle_agata.png"),
-                url("/images/circle_eki.png"),
-                url("/images/circle_reiffa.png"),
-                url("/images/stary.gif"),
-                url("/images/stary.gif"),
-                url("/images/circle_yayah.png"),
-                url("/images/stary.gif");
+            background-image: url("images/circle_najid.png"),
+                url("images/circle_agata.png"),
+                url("images/circle_eki.png"),
+                url("images/circle_reiffa.png"),
+                url("images/stary.gif"),
+                url("images/stary.gif"),
+                url("images/circle_yayah.png"),
+                url("images/stary.gif");
         
-                background-image: url(/images/circle_najid.png), url(/images/circle_agata.png), url(/images/circle_eki.png), url(/images/circle_reiffa.png), url(/images/stary.gif), url(/images/stary.gif), url(/images/circle_yayah.png), url(/images/stary.gif);
+                background-image: url(images/circle_najid.png), url(images/circle_agata.png), url(images/circle_eki.png), url(images/circle_reiffa.png), url(images/stary.gif), url(images/stary.gif), url(images/circle_yayah.png), url(images/stary.gif);
                 background-position: 98% 78%, 38% 100%, 75.6% 61%, 69% 103%, 26% 59%, 5% 105%, 49% 61%, 92% 26%;
                 background-size: 100px, 100px, 100px, 100px, 120px, 120px, 100px, 192px;
                 background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
@@ -1144,7 +1144,7 @@ section
         .personRight .textRoles {
             color: rgb(255, 255, 255);
             background-color: rgb(16, 76, 151);
-            background-image: url(/images/bgRolesright.png);
+            background-image: url(images/bgRolesright.png);
             width: fit-content;
             padding: 55px 35% 40px 10rem;
             position: relative;
