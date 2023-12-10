@@ -232,7 +232,7 @@ section {
     justify-content: center;
     flex-direction: row;
     padding: 5rem 7%;
-    margin-top: -60px;
+    margin-top: 0px;
     z-index: 1;
 }
 
