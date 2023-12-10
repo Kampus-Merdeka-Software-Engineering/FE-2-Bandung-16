@@ -437,48 +437,49 @@ section{
     
 .personLeft, .personRight{
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     padding: 10px 0px;
+    overflow: hidden;
 }
 
 .personLeft img{
     position: relative;
-    top: -17px;
-    left: 18em;
+    top: auto;
+    left: 10em;
     height: 325px;
     z-index: 1;
 }
 .personRight img{
     position: relative;
     top: auto;
-    left: -20em;
+    left: -8em;
     height: 325px;
 }
 
 .personLeft .textRoles{
     color: #fff;
     background-color: #104c97;
-    background-image: url(/images/bgRolesleft.png);
+    background-image: url(https://raw.githubusercontent.com/Kampus-Merdeka-Software-Engineering/FE-2-Bandung-16/main/images/bgRolesleft.png);
     width: auto;
-    padding: 40px 6% 40px 60rem;
+    padding: 40px 8% 50px 27.25%;
     position: relative;
     height: fit-content;
-    margin-top: 5%;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     margin-right: auto;
-    margin-left: -12%;
+    margin-left: -19%;
     text-align: -webkit-right;
 }
 
 .personRight .textRoles{
     color: rgb(255, 255, 255);
     background-color: rgb(16, 76, 151);
-    background-image: url(/images/bgRolesright.png);
+    background-image: url(https://raw.githubusercontent.com/Kampus-Merdeka-Software-Engineering/FE-2-Bandung-16/main/images/bgRolesright.png);
     width: fit-content;
-    padding: 55px 35% 40px 10rem;
+    /* padding: 55px 35% 40px 10rem; */
+    padding: 50px 30% 50px 5%;
     position: relative;
     height: fit-content;
-    margin-right: -18%;
+    margin-right: -25%;
     margin-top: 50px;
 }
 .kotakRoles{
@@ -505,6 +506,9 @@ section{
     width: fit-content;
     font-size: 2.5rem;
     letter-spacing: 1rem;
+}
+.kotakRolesright.share a, .kotakRolesleft.share a{
+    color: #ffffff;
 }
 
 
@@ -797,17 +801,60 @@ section{
             font-size: 10px;
             line-height: normal;
         }
+        .deskRoles {
+            margin-top: 50px;
+            padding: 0px 0px;
+        }
+        .personLeft .textRoles {
+            color: #fff;
+            background-color: #104c97;
+            background-image: url(https://raw.githubusercontent.com/Kampus-Merdeka-Software-Engineering/FE-2-Bandung-16/main/images/bgRolesleft.png);
+            width: fit-content;
+            padding: 20px 3% 35px 36.25%;
+            position: relative;
+            height: auto;
+            /* margin-bottom: 30px; */
+            margin-right: auto;
+            margin-left: -60%;
+            text-align: -webkit-right;
+        }
         .personRight .textRoles {
             color: rgb(255, 255, 255);
             background-color: rgb(16, 76, 151);
-            background-image: url(/images/bgRolesright.png);
             width: fit-content;
-            padding: 55px 35% 40px 10rem;
+            padding: 18px 51% 37px 2rem;
             position: relative;
             height: fit-content;
-            margin-right: -18%;
+            margin-right: -38%;
             margin-top: 50px;
             font-size: 80%;
+        }
+        .personLeft img {
+            position: relative;
+            top: auto;
+            left: -8.5em;
+            height: 325px;
+            z-index: 1;
+        }
+        .kotakRolesright.share {
+            margin-top: -5px;
+            margin-bottom: -27px;
+            padding: 10px 40px;
+            border-radius: 40px;
+            width: fit-content;
+            font-size: 2.5rem;
+            letter-spacing: 1rem;
+            display: flex;
+        }
+        .kotakRolesleft.share {
+            margin-top: -5px;
+            margin-bottom: -27px;
+            padding: 10px 40px;
+            border-radius: 40px;
+            width: fit-content;
+            font-size: 2.5rem;
+            letter-spacing: 1rem;
+            display: flex;
         }
     }
 
