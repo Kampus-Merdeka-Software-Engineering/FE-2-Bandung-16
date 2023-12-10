@@ -625,6 +625,15 @@ P {
         html {
             font-size: 50%;
         }
+        .home .slide {
+            min-height: 34vh;
+            background-size: 100% !important;
+            background-position: 0rem 8rem !important;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: -1;
+        }
 
         .home .slide .content {
             width: 30rem;
