@@ -1,6 +1,6 @@
 # Blue Horizon Resort - A South East Asian beachside paradise
 <p align="center">
-  <img src="/src/assets/images/BlueHorizonWhite.png" alt="logo">
+  <img src="images/BlueHorizonWhite.png" alt="logo">
 </p>
 Selamat datang di **Blue Horizon Resort**! Kami dengan bangga mempersembahkan pengalaman liburan yang tak terlupakan di Bali. Berlokasi di tepi pantai yang menakjubkan, kami menggabungkan keindahan alam dengan fasilitas modern untuk memastikan Anda merasa santai dan terhibur.
 
@@ -19,37 +19,39 @@ Kami mengundang Anda untuk menjelajahi keindahan alam, menikmati fasilitas kami,
 
 Selamat datang di Blue Horizon Resort. Panduan ini akan membantu Anda menjelajahi fitur-fitur utama website kami.
 
-## Halaman Beranda
-Halaman Beranda adalah tempat utama untuk memulai. Di sini, Anda dapat:
+## Halaman Home & Facility
+Berisi profil perusahaan dan fasilitas yang disediakan  
 
-## Halaman
+## Halaman Room & Book Now
+Berisi pilihan jenis kamar dan fitur untuk pemesanan  
 
-## Halaman
-
-## Halaman
+## Halaman Information
+Berisi informasi anggota serta fitur untuk megirim pesan masukan dan pertanyaan 
 
 Selamat menggunakan website Blue Horizon Resort! Kami berharap Anda memiliki pengalaman pengiriman yang mudah dan nyaman bersama kami.
 
 
-# Teknologi Blue Horizon Resort
+# Alat & Teknologi Blue Horizon Resort
 
-Blue Horizon Resort adalah proyek pengiriman barang yang dibangun dengan berbagai teknologi yang kuat. Di bawah ini adalah daftar teknologi yang digunakan dalam proyek ini bersama dengan penjelasan singkat mengenai kegunaannya.
+Blue Horizon Resort adalah web pemesanan hotel yang dibangun dengan berbagai teknologi yang kuat. Di bawah ini adalah daftar teknologi yang digunakan dalam proyek ini bersama dengan penjelasan singkat mengenai kegunaannya.
 
-- **HTML (Hypertext Markup Language)**: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+- **FIGMA**: Figma adalah alat desain dan prototyping digital. Ini adalah aplikasi desain UI dan UX yang dapat digunakan untuk membuat situs web, aplikasi, atau komponen antarmuka pengguna yang lebih kecil.
 
-- **CSS (Cascading Style Sheets)**: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+- **HTML (Hypertext Markup Language)**: HTML (HyperText Markup Language) adalah blok bangunan paling dasar dari Web. Ini mendefinisikan makna dan struktur konten web.
 
-- **JavaScript (JS)**: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+- **CSS (Cascading Style Sheets)**: CSS (Cascading Style Sheets) adalah bahasa stylesheet yang digunakan untuk mendeskripsikan presentasi dokumen yang ditulis dalam HTML.
 
-- **Node.js**: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+- **JavaScript (JS)**: JavaScript adalah bahasa pemrograman yang digunakan untuk Web. JavaScript dapat memperbarui dan mengubah HTML dan CSS.
 
-- **SQL (Structured Query Language)**: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+- **Node.js**: Node.js adalah lingkungan runtime JavaScript yang open-source dan cross-platform. Node.js digunakan untuk membangun layanan back-end seperti API.
 
-- **Postman**: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+- **SQL (Structured Query Language)**: SQL (Structured Query Language) adalah bahasa standar untuk mengakses dan memanipulasi database.
 
-- **GitHub**: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+- **Postman**: Postman adalah platform API untuk membangun dan menggunakan API. Postman menyederhanakan setiap langkah dari siklus hidup API dan merampingkan kolaborasi.
 
-- **Railway**: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+- **GitHub**: GitHub adalah situs web dan layanan yang membantu pengembang menyimpan dan mengelola kode mereka, serta melacak dan mengendalikan perubahan pada kode mereka.
+
+- **Railway**: Railway adalah platform infrastruktur di mana Anda dapat menyediakan infrastruktur, mengembangkan infrastruktur tersebut secara lokal, dan kemudian melakukan deploy ke cloud.
 
 Kombinasi teknologi ini memungkinkan Blue Horizon Resort untuk menyediakan layanan penyedia resort yang efisien dan dapat diandalkan kepada pelanggan kami.
 
@@ -74,3 +76,4 @@ Seluruh anggota tim berperan penting dalam menjalankan proyek KM-RevoU dan berko
 Sekian dari project kami, kami masih belajar dan akan terus berusaha untuk menjadi lebih baik. Akhir kata, Selamat menggunakan website Blue Horizon Resort! Kami berharap Anda memiliki pengalaman pengiriman yang mudah dan nyaman bersama kami.
 ## [Kunjungi Website Blue Horizon Resort](https://kampus-merdeka-software-engineering.github.io/FE-2-Bandung-16/)
 
+<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://flask.palletsprojects.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" alt="flask" width="40" height="40"/> </a> <a href="https://cloud.google.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" alt="gcp" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://kotlinlang.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="kotlin" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
