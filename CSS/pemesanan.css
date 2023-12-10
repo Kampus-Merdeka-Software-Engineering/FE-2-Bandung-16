@@ -141,9 +141,9 @@ section{
 }
 
 .home .slide{
-    min-height: 100vh;
-    background-size: cover !important;
-    background-position: center !important;
+    min-height: 105vh;
+    background-size: 100% !important;
+    background-position: 0rem 6.4rem !important;
     display: flex;
     align-items: center;
     justify-content: center;
