@@ -290,48 +290,49 @@
 
    <!-- reservation -->
 
-   <section class="reservation" id="reservation">
+   <section class="reservation" id="pemesanan">
 
       <h1 class="heading">book now</h1>
 
-      <form action="">
+      <form action="https://be-2-bandung-16-production.up.railway.app/pemesanan" method="POST">
 
          <div class="container">
 
             <div class="box">
                <p>name <span>*</span></p>
-               <input type="text" class="input" placeholder="Your Name">
+               <input type="text" class="input" placeholder="Your Name" id="name">
             </div>
 
             <div class="box">
                <p>email <span>*</span></p>
-               <input type="text" class="input" placeholder="Your Email">
+               <input type="text" class="input" placeholder="Your Email" id="email">
             </div>
 
             <div class="box">
                <p>check in <span>*</span></p>
-               <input type="date" class="input">
+               <input type="date" class="input" id="checkin">
             </div>
 
             <div class="box">
                <p>check out <span>*</span></p>
-               <input type="date" class="input">
+               <input type="date" class="input" id="chechout">
             </div>
 
             <div class="box">
                <p>adults <span>*</span></p>
-               <select name="adults" class="input">
-                  <option value="1">1 adults</option>
-                  <option value="2">2 adults</option>
-                  <option value="3">3 adults</option>
-                  <option value="4">4 adults</option>
-                  <option value="5">5 adults</option>
+               <select name="adults" class="input" id="adults">
+                  <option value="NONE">1 adults</option>
+                  <option value="CHILD_1">2 adults</option>
+                  <option value="CHILD_2">3 adults</option>
+                  <option value="CHILD_3">4 adults</option>
+                  <option value="CHILD_4">5 adults</option>
+                  <option value="CHILD_5">6 adults</option>
                </select>
             </div>
 
             <div class="box">
                <p>children <span>*</span></p>
-               <select name="child" class="input">
+               <select name="child" class="input" id="child">
                   <option value="1">None child</option>
                   <option value="2">1 child</option>
                   <option value="3">2 child</option>
@@ -343,23 +344,23 @@
 
             <div class="box">
                <p>rooms <span>*</span></p>
-               <select name="rooms" class="input">
-                  <option value="1">1 rooms</option>
-                  <option value="2">2 rooms</option>
-                  <option value="3">3 rooms</option>
-                  <option value="4">4 rooms</option>
-                  <option value="5">5 rooms</option>
+               <select name="rooms" class="input" id="room">
+                  <option value="One">1 rooms</option>
+                  <option value="Two">2 rooms</option>
+                  <option value="Three">3 rooms</option>
+                  <option value="Four">4 rooms</option>
+                  <option value="Five">5 rooms</option>
                </select>
             </div>
 
             <div class="box">
                <p>room type <span>*</span></p>
-               <select name="type" class="input">
-                  <option value="1">exclusive rooms</option>
-                  <option value="2">family rooms</option>
-                  <option value="3">daily rooms</option>
-                  <option value="4">panoramic rooms</option>
-                  <option value="5">honey rooms</option>
+               <select name="type" class="input" id="type_room">
+                  <option value="Exclusive">exclusive rooms</option>
+                  <option value="family">family rooms</option>
+                  <option value="daily">daily rooms</option>
+                  <option value="Panoramic">panoramic rooms</option>
+                  <option value="Honey">honey rooms</option>
                </select>
             </div>
 
