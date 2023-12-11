@@ -113,7 +113,7 @@ document.addEventListener("DOMContentLoaded", function () {
           "Content-Type": "application/json",
         },
         body: JSON.stringify(pemesananData),
-      });
+        });
         .then((response) => {
           if (!response.ok) {
             throw new Error("The form submission encountered an error.");
@@ -138,7 +138,8 @@ document.addEventListener("DOMContentLoaded", function () {
             "error",
           );
         });
-    });
+      });
+      
   
     function showSweetAlert(title, text, icon) {
       return Swal.fire({
