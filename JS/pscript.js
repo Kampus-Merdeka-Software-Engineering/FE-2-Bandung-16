@@ -1,3 +1,4 @@
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 let menu = document.querySelector('#menu-btn');
 let navbar = document.querySelector('.header .navbar');
 
