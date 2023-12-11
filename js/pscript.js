@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const rooms = document.getElementById("room").value;
       const type_room = document.getElementById("type_room").value;
 
-      if ( !name || !email || !check_in || !check_out || !adults || !childs || !rooms || type_room) {
+      if ( !name || !email || !check_in || !check_out || !adults || !childs || !rooms || !type_room) {
           showSweetAlert(
               "Error",
               "Please complete all the columns in the form!",
@@ -152,7 +152,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   async function setupRoomsPage() {
       try {
-          const response = await fetch(`${API_URL}/rooms`);
+          const response = await fetch(`${API_URL}/room`);
           const roomsData = await response.json();
 
           if (!roomsData.data || !Array.isArray(roomsData.data)) {
