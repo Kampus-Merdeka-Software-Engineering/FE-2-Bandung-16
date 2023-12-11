@@ -12,9 +12,9 @@ window.onscroll = () => {
 }
 
 var swiper = new Swiper(".home-slider", {
-    grabCursor:true,
-    loop:true,
-    centeredSlides:true,
+    grabCursor: true,
+    loop: true,
+    centeredSlides: true,
     autoplay: {
         delay: 7500,
         disableOnInteraction: false,
@@ -27,9 +27,9 @@ var swiper = new Swiper(".home-slider", {
 
 var swiper = new Swiper(".room-slider", {
     spaceBetween: 20,
-    grabCursor:true,
-    loop:true,
-    centeredSlides:true,
+    grabCursor: true,
+    loop: true,
+    centeredSlides: true,
     autoplay: {
         delay: 7500,
         disableOnInteraction: false,
@@ -52,29 +52,29 @@ var swiper = new Swiper(".room-slider", {
 });
 
 function showSweetAlert(title, text, icon) {
-  return Swal.fire({
-      title: title,
-      text: text,
-      icon: icon,
-      confirmButtonColor: "#645cff",
-  });
+    return Swal.fire({
+        title: title,
+        text: text,
+        icon: icon,
+        confirmButtonColor: "#645cff",
+    });
 }
 
 const CodeForm = document.getElementById("code-form");
 const ReedemButton = document.getElementById("code-form-submit");
 const CodeAccMsg = document.getElementById("code-acc-msg");
 
-ReedemButton.addEventListener("click",(e) => {
+ReedemButton.addEventListener("click", (e) => {
     e.preventDefault();
 
     const code = CodeForm.code.value;
-    if (code === "hotel"){
+    if (code === "hotel") {
         alert("You Succesfully Reedem Code");
         location.reload();
-    } else if(code === "BANDUNG16"){
+    } else if (code === "BANDUNG16") {
         alert("You Succesfully Reedem Code");
         location.reload();
-    } else{
+    } else {
         CodeAccMsg.style.opacity = 1;
     }
 })
@@ -82,100 +82,99 @@ ReedemButton.addEventListener("click",(e) => {
 const API_URL = "https://be-2-bandung-16-production.up.railway.app";
 
 document.addEventListener("DOMContentLoaded", function () {
-  const pemesananForm = document.getElementById("pemesanan");
+    const pemesananForm = document.getElementById("pemesanan");
 
-  pemesananForm.addEventListener("submit", async function (event) {
-      event.preventDefault();
+    pemesananForm.addEventListener("submit", function (event) {
+        event.preventDefault();
 
-      const name = document.getElementById("name").value;
-      const email = document.getElementById("email").value;
-      const check_in = document.getElementById("checkin").value;
-      const check_out = document.getElementById("checkout").value;
-      const adults = document.getElementById("adults").value;
-      const childs = document.getElementById("childs").value;
-      const rooms = document.getElementById("rooms").value;
-      const type_room = document.getElementById("type_room").value;
+        const name = document.getElementById("name").value;
+        const email = document.getElementById("email").value;
+        const check_in = document.getElementById("checkin").value;
+        const check_out = document.getElementById("checkout").value;
+        const adults = document.getElementById("adults").value;
+        const childs = document.getElementById("childs").value;
+        const rooms = document.getElementById("rooms").value;
+        const type_room = document.getElementById("type_room").value;
 
-      console.log("nama" = name);
-      console.log("rooms" = rooms);
-      
+        console.log("name" = name);
+        console.log("rooms" = rooms);
+        const rooms_id = rooms.value;
 
-      if ( !name || !email || !check_in || !check_out || !adults || !childs || !rooms || !type_room) {
-          showSweetAlert(
-              "Error",
-              "Please complete all the columns in the form!",
-              "error"
-          );
-          return;
-      }
+        if (!name || !email || !check_in || !check_out || !adults || !childs || !rooms || !type_room) {
+            showSweetAlert(
+                "Error",
+                "Please complete all the columns in the form!",
+                "error",
+            );
+            return;
+        }
 
-      const pemesananData = {
-          name,
-          email,
-          rooms_id: rooms,
-          check_in,
-          check_out,
-          adults,
-          childs,
-          room,
-          type_room
-      };
+        const pemesananData = {
+            name,
+            email,
+            rooms_id,
+            check_in,
+            check_out,
+            adults,
+            childs,
+            room,
+            type_room
+        };
 
-      try {
-          const response = await fetch(`${API_URL}/pemesanan`, {
-              method: "POST",
-              headers: {
-                  "Content-Type": "application/json",
-              },
-              body: JSON.stringify(pemesananData),
-          });
+        try {
+            const response = await fetch(`${API_URL}/pemesanan`, {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify(pemesananData),
+            });
 
-          if (!response.ok) {
-              throw new Error("The form submission encountered an error.");
-          }
+            if (!response.ok) {
+                throw new Error("The form submission encountered an error.");
+            }
 
-          const data = await response.json();
+            const data = await response.json();
 
-          showSweetAlert(
-              "Success",
-              "Booking Rooms has been sent. Check it in the History page",
-              "success",
-          ).then(() => {
-              //setelah sukses arahkan ke home
-              window.location.href = "index.html";
-          });
-      } catch (error) {
-          console.error("Error:", error.message);
-          showSweetAlert(
-              "Error",
-              "The message sending failed. Please try again later.",
-              "error",
-          );
-      }
-  });
+            showSweetAlert(
+                "Success",
+                "Booking Rooms has been sent. Check it in the History page",
+                "success",
+            ).then(() => {
+                //setelah sukses arahkan ke home
+                window.location.href = "index.html";
+            });
+        } catch (error) {
+            console.error("Error:", error.message);
+            showSweetAlert(
+                "Error",
+                "The message sending failed. Please try again later.",
+                "error",
+            );
+        }
+    });
 
-  async function setupRoomsPage() {
-      try {
-          const response = await fetch(`${API_URL}/room`);
-          const roomsData = await response.json();
+    async function setupRoomsPage() {
+        try {
+            const response = await fetch(`${API_URL}/room`);
+            const roomsData = await response.json();
 
-          if (!roomsData.data || !Array.isArray(roomsData.data)) {
-              console.error("Invalid or missing data in the response:", roomsData);
-              return;
-          }
+            if (!roomsData.data || !Array.isArray(roomsData.data)) {
+                console.error("Invalid or missing data in the response:", roomsData);
+                return;
+            }
 
-          const selector = document.getElementById("room");
-          roomsData.data.forEach((rooms) => {
-              const optionRooms = document.createElement("option");
-              optionRooms.value = rooms.id;
-              optionRooms.textContent = rooms.name;
-              selector.appendChild(optionRooms);
-          });
-      } catch (error) {
-          console.error("Error", error);
-      }
-  }
+            const selector = document.getElementById("room");
+            roomsData.data.forEach((rooms) => {
+                const optionRooms = document.createElement("option");
+                optionRooms.value = rooms.id;
+                optionRooms.textContent = rooms.name;
+                selector.appendChild(optionRooms);
+            });
+        } catch (error) {
+            console.error("Error", error);
+        }
+    }
 
-  setupRoomsPage();
+    setupRoomsPage();
 });
-
