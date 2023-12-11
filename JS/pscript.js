@@ -121,14 +121,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
           const data = await response.json();
 
-          showSweetAlert(
-              "Success",
-              "Booking Rooms has been sent. Check it in the History page",
-              "success",
-          ).then(() => {
-              //setelah sukses arahkan ke home
-              window.location.href = "index.html";
-          });
+          // showSweetAlert(
+          //     "Success",
+          //     "Booking Rooms has been sent. Check it in the History page",
+          //     "success",
+          // ).then(() => {
+          //     //setelah sukses arahkan ke home
+          //     window.location.href = "index.html";
+          // });
       } catch (error) {
           console.error("Error:", error.message);
           showSweetAlert(
