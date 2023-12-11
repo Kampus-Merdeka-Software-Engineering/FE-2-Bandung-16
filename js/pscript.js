@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const rooms = document.getElementById("room").value;
       const type_room = document.getElementById("type_room").value;
 
-      if ( !name || !email || !check_in || !check_out || !adults || !childs || !room || type_room) {
+      if ( !name || !email || !check_in || !check_out || !adults || !childs || !rooms || type_room) {
           showSweetAlert(
               "Error",
               "Please complete all the columns in the form!",
@@ -152,7 +152,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   async function setupRoomsPage() {
       try {
-          const response = await fetch(`${API_URL}/room`);
+          const response = await fetch(`${API_URL}/rooms`);
           const roomsData = await response.json();
 
           if (!roomsData.data || !Array.isArray(roomsData.data)) {
@@ -161,10 +161,10 @@ document.addEventListener("DOMContentLoaded", function () {
           }
 
           const selector = document.getElementById("room");
-          roomsData.data.forEach((room) => {
+          roomsData.data.forEach((rooms) => {
               const optionRooms = document.createElement("option");
-              optionRooms.value = room.id;
-              optionRooms.textContent = room.name;
+              optionRooms.value = rooms.id;
+              optionRooms.textContent = rooms.name;
               selector.appendChild(optionRooms);
           });
       } catch (error) {
