@@ -87,15 +87,15 @@ document.addEventListener("DOMContentLoaded", function () {
   pemesananForm.addEventListener("submit", async function (event) {
       event.preventDefault();
 
-      const email = document.getElementById("email").value;
       const name = document.getElementById("name").value;
+      const email = document.getElementById("email").value;
       const check_in = document.getElementById("checkin").value;
       const check_out = document.getElementById("checkout").value;
       const adults = document.getElementById("adults").value;
       const room = document.getElementById("room").value;
       const type_room = document.getElementById("type_room").value;
 
-      if (!email || !name || !check_in || !check_out || !adults || !room || !type_room) {
+      if ( !name || !email || !check_in || !check_out || !adults || !room || !type_room) {
           showSweetAlert(
               "Error",
               "Please complete all the columns in the form!",
@@ -105,8 +105,8 @@ document.addEventListener("DOMContentLoaded", function () {
       }
 
       const pemesananData = {
-          email,
           name,
+          email,
           rooms_id: room,
           check_in,
           check_out,
