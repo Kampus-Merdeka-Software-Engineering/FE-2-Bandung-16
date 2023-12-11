@@ -92,10 +92,11 @@ document.addEventListener("DOMContentLoaded", function () {
       const check_in = document.getElementById("checkin").value;
       const check_out = document.getElementById("checkout").value;
       const adults = document.getElementById("adults").value;
-      const room = document.getElementById("room").value;
+      const childs = document.getElementById("childs").value;
+      const rooms = document.getElementById("room").value;
       const type_room = document.getElementById("type_room").value;
 
-      if ( !name || !email || !check_in || !check_out || !adults || !room || type_room) {
+      if ( !name || !email || !check_in || !check_out || !adults || !childs || !room || type_room) {
           showSweetAlert(
               "Error",
               "Please complete all the columns in the form!",
@@ -107,10 +108,11 @@ document.addEventListener("DOMContentLoaded", function () {
       const pemesananData = {
           name,
           email,
-          rooms_id: room,
+          rooms_id: rooms,
           check_in,
           check_out,
           adults,
+          childs,
           room,
           type_room
       };
