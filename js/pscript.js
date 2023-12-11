@@ -93,8 +93,12 @@ document.addEventListener("DOMContentLoaded", function () {
       const check_out = document.getElementById("checkout").value;
       const adults = document.getElementById("adults").value;
       const childs = document.getElementById("childs").value;
-      const rooms = document.getElementById("room").value;
+      const rooms = document.getElementById("rooms").value;
       const type_room = document.getElementById("type_room").value;
+
+      console.log("nama" = name);
+      console.log("rooms" = rooms);
+      
 
       if ( !name || !email || !check_in || !check_out || !adults || !childs || !rooms || !type_room) {
           showSweetAlert(
