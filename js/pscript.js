@@ -84,7 +84,7 @@ const API_URL = "https://be-2-bandung-16-production.up.railway.app";
 document.addEventListener("DOMContentLoaded", function () {
     const pemesananForm = document.getElementById("pemesanan");
 
-    pemesananForm.addEventListener("submit", function (event) {
+    pemesananForm.addEventListener("submit", async function (event) {
         event.preventDefault();
 
         const name = document.getElementById("name").value;
@@ -98,8 +98,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
         console.log("name", name)
         console.log("rooms", rooms);
-        
-        const rooms_id = rooms.value;
 
         if (!name || !email || !check_in || !check_out || !adults || !childs || !rooms || !type_room) {
             showSweetAlert(
@@ -113,7 +111,6 @@ document.addEventListener("DOMContentLoaded", function () {
         const pemesananData = {
             name,
             email,
-            rooms_id,
             check_in,
             check_out,
             adults,
