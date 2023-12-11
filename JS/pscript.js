@@ -151,22 +151,45 @@ document.addEventListener("DOMContentLoaded", function () {
   });
   
     //GET Rooms API /rooms
-    async function setupRoomsPage() {
-      try {
-        const response = await fetch(`${API_URL}/room`);
-        const roomsData = await response.json();
-        console.log(roomsData, "room")
+    // async function setupRoomsPage() {
+    //   try {
+    //     const response = await fetch(`${API_URL}/room`);
+    //     const roomsData = await response.json();
+    //     console.log(roomsData, "room")
     
-        const selector = document.getElementById("room");
-        roomsData.data.forEach((room) => {
-          const optionRooms = document.createElement("option");
-          optionRooms.value = room.id;
-          optionRooms.textContent = room.rooms; // Assuming room.name is the property containing room names
-          selector.appendChild(optionRooms);
-        });
-      } catch (error) {
-        console.error("Error", error);
-      }
+    //     const selector = document.getElementById("room");
+    //     roomsData.data.forEach((room) => {
+    //       const optionRooms = document.createElement("option");
+    //       optionRooms.value = room.id;
+    //       optionRooms.textContent = room.rooms; // Assuming room.name is the property containing room names
+    //       selector.appendChild(optionRooms);
+    //     });
+    //   } catch (error) {
+    //     console.error("Error", error);
+    //   }
+    // }
+    
+    // setupRoomsPage();
+    async function setupRoomsPage() {
+        try {
+            const response = await fetch(`${API_URL}/room`);
+            const roomsData = await response.json();
+    
+            if (!roomsData.data || !Array.isArray(roomsData.data)) {
+                console.error("Invalid or missing data in the response:", roomsData);
+                return;
+            }
+    
+            const selector = document.getElementById("room");
+            roomsData.data.forEach((room) => {
+                const optionRooms = document.createElement("option");
+                optionRooms.value = room.id;
+                optionRooms.textContent = room.rooms; // Assuming room.name is the property containing room names
+                selector.appendChild(optionRooms);
+            });
+        } catch (error) {
+            console.error("Error", error);
+        }
     }
     
     setupRoomsPage();
