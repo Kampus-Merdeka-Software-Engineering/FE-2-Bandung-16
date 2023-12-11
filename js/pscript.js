@@ -96,8 +96,9 @@ document.addEventListener("DOMContentLoaded", function () {
         const rooms = document.getElementById("rooms").value;
         const type_room = document.getElementById("type_room").value;
 
-        console.log("name" = name);
-        console.log("rooms" = rooms);
+        console.log("name", name)
+        console.log("rooms", rooms);
+        
         const rooms_id = rooms.value;
 
         if (!name || !email || !check_in || !check_out || !adults || !childs || !rooms || !type_room) {
@@ -117,7 +118,7 @@ document.addEventListener("DOMContentLoaded", function () {
             check_out,
             adults,
             childs,
-            room,
+            rooms,
             type_room
         };
 
