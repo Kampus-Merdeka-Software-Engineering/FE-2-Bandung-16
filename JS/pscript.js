@@ -106,13 +106,14 @@ document.addEventListener("DOMContentLoaded", function () {
         type_room
       };
 
-      fetch(`${API_URL}/pemesanan`, {
+      try {
+        const response= await fetch(`${API_URL}/pemesanan`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
         },
         body: JSON.stringify(pemesananData),
-      })
+      });
         .then((response) => {
           if (!response.ok) {
             throw new Error("The form submission encountered an error.");
