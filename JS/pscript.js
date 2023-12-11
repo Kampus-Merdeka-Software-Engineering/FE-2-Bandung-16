@@ -162,7 +162,7 @@ document.addEventListener("DOMContentLoaded", function () {
           roomsData.data.forEach((room) => {
               const optionRooms = document.createElement("option");
               optionRooms.value = room.id;
-              optionRooms.textContent = room.rooms;
+              optionRooms.textContent = room.name;
               selector.appendChild(optionRooms);
           });
       } catch (error) {
