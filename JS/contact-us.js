@@ -18,3 +18,5 @@ floating_btn.addEventListener('click', () => {
 close_btn.addEventListener('click', () => {
 	social_panel_container.classList.remove('visible')
 });
+
+const API_URL = "https://be-2-bandung-16-production.up.railway.app/";
