@@ -51,15 +51,6 @@ var swiper = new Swiper(".room-slider", {
   },
 });
 
-function showSweetAlert(title, text, icon) {
-  return Swal.fire({
-    title: title,
-    text: text,
-    icon: icon,
-    confirmButtonColor: "#645cff",
-  });
-}
-
 const CodeForm = document.getElementById("code-form");
 const ReedemButton = document.getElementById("code-form-submit");
 const CodeAccMsg = document.getElementById("code-acc-msg");
