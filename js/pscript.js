@@ -107,7 +107,7 @@ document.addEventListener("DOMContentLoaded", function () {
         console.log("Success:", data);
         showSweetAlert(
           "Booking Successful",
-          "Thank you for booking with us!",
+          "Thank you ${full_name} for booking with us!",
           "success"
         );
       } else {
